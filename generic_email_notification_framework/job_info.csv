@@ -1,0 +1,3 @@
+Job Id,Job Name,Job Status,Execution Time,Start Time,End Time,Row Count,Error Message,Recipient Email,Date,Source Table,Target Table
+5fe74f90,Data Transfer Job,Failed,0.0,2024-10-30 15:48:26,2024-10-30 15:48:26,,Simulated data transfer error,heetshah381997@gmail.com,2024-10-30,source_data.csv,target_data.csv
+381af068,Data Transfer Job,Failed,0.0,2024-10-30 15:50:19,2024-10-30 15:50:19,N/A,Simulated data transfer error,heetshah381997@gmail.com,2024-10-30,source_data.csv,target_data.csv

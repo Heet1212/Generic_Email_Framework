@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <p>Dear {{ recipient_name }},</p>
+    <p>We regret to inform you that the job <strong>{{ job_name }}</strong> (ID: {{ job_id }}) has failed.</p>
+
+    <table>
+        <tr><th>Job ID</th><td>{{ job_id }}</td></tr>
+        <tr><th>Job Name</th><td>{{ job_name }}</td></tr>
+        <tr><th>Job Status</th><td>{{ job_status }}</td></tr>
+        <tr><th>Date</th><td>{{ date }}</td></tr>
+        <tr><th>Start Time</th><td>{{ start_time }}</td></tr>
+        <tr><th>Source Table</th><td>{{ source_table }}</td></tr>
+        <tr><th>Error Message</th><td>{{ error_message }}</td></tr>
+
+    </table>
+
+
+
+    <p>This is an automated notification regarding the recent status of the job.</p>
+    <p>Best regards,<br>Your Automation Team</p>
+</body>
+</html>
